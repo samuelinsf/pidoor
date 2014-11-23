@@ -37,7 +37,7 @@ To make everything nice I put all the parts in an alarm system box:
 [http://www.amazon.com/Interlogix-NetworX-X-Pand-A-Can-Enclosure-NX-003/dp/B00171A43Y](http://www.amazon.com/Interlogix-NetworX-X-Pand-A-Can-Enclosure-NX-003/dp/B00171A43Y)
 
 To make it robust I soldered everything down onto one of these (with a temperature controlled weller):
-(http://www.adafruit.com/products/1135)[http://www.adafruit.com/products/1135]
+[http://www.adafruit.com/products/1135](http://www.adafruit.com/products/1135)
 
 Because I live in San Francisco my house already had an
 entry gate with built in latch solenoid.
@@ -47,12 +47,5 @@ For the raspberry Pi I used a model B.
 For storing the logs and access database I use a USB thumb drive
 mounted in sync mode... I switched to this model after the random
 one I was using began to get slow:
-(http://www.amazon.com/gp/product/B00KT7DXIU)[http://www.amazon.com/gp/product/B00KT7DXIU]
+[http://www.amazon.com/gp/product/B00KT7DXIU](http://www.amazon.com/gp/product/B00KT7DXIU)
 
-
-Setting up the raspberry pi:
-I used a raspbian from 2013 for the build.
-(http://www.raspbian.org/)[http://www.raspbian.org/] Newer versions will probably work fine.
-
-For robustness I made it readonly root and gave it a static IP.
-(https://wiki.debian.org/ReadonlyRoot)[https://wiki.debian.org/ReadonlyRoot]

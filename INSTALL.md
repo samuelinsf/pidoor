@@ -71,7 +71,5 @@ beginning of web_ui.py for an example ini
     exec ./web_ui.py /data/web_ui.ini
     EOF
 
-Make the pi's root filesystem readonly.
-Put the Pi on a network so it can get the date and time.
-(Remember, it has no battery backed realtime clock, so after booting it thinks it
-it is Jan 1 1970)
+For robustness I made the Pi readonly root and gave it a static IP.
+[https://wiki.debian.org/ReadonlyRoot](https://wiki.debian.org/ReadonlyRoot)
