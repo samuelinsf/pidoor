@@ -9,9 +9,11 @@ but I didn't need those, and so have left them out.
 There is one of the loop isolation circuits for each
 of the classic style burglar alarm DC loops I have tracked.
 The current installation has 5 of them running.
+![ alt 12v alarm loop isolation interface for pi ] (loop-sense-isolated.png)
 
 The LED in the relay control circuit is a backemf quench.
 Any diode will do.
+![ alt door buzzer relay interface for pi ] (solenoid-control-schematic.png)
 
 
 Some key parts
