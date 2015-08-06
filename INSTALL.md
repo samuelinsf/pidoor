@@ -4,6 +4,9 @@ Build and connect some hardware (see hardware/)
 
 Software side
 -------------------
+Install lazytable
+
+    pip install lazytable
 
 Copy this repo to /root on the pi.
 Add a readwrite mount /data I put it on a thumb drive formatted like so:
