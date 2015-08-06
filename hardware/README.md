@@ -4,6 +4,7 @@ The circuit for the cardreader interface is used twice.
 The isolated pulldown to ground scheme also works to
 control the cardreader's led and buzzer,
 but I didn't need those, and so have left them out.
+![ alt Weigand ttl to pi interface schematic] (cardreader-interface.png)
 
 There is one of the loop isolation circuits for each
 of the classic style burglar alarm DC loops I have tracked.

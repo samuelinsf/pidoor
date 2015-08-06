@@ -29,7 +29,7 @@ def main():
         # card door is_allowed note
         (card, door, is_allowed, note) = args
         new = {'card':int(card), 'door':door, 'is_allowed':int(is_allowed), 'note':note}
-        t.upsert(new, {'card':card, 'door':door})
+        t.upsert({'card':card, 'door':door}, new)
     else:
         dump(t)
         parser.print_usage()
